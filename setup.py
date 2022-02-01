@@ -1,7 +1,9 @@
 from setuptools import setup
 
 setup(
-    install_requires=[],
+    install_requires=[
+
+    ],
     tests_require=[
         "tox",
     ],

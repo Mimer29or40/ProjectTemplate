@@ -5,3 +5,10 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
 write_to = "__version__.py"
 local_scheme = "no-local-version"
+
+[tool.towncrier]
+package = "package"
+filename = "docs/changelog.rst"
+directory = "changelog"
+issue_format = "`#{issue} <https://github.com/Mime29or40/package/issues/{issue}>`_"
+underlines = ["-", "^"]
