@@ -3,7 +3,9 @@
 max-line-length = 88
 
 extend-ignore =
+    D105,  # Missing docstring in magic method
     D107,  # Missing docstring in __init__
+    D401,  # First line should be in imperative mood
 
 per-file-ignores =
     # TODO: Incrementally add missing docstrings
