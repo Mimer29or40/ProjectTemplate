@@ -37,4 +37,4 @@ __project_urls__: Final[Dict[str, str]] = {
 
 __copyright__: Final[str] = f"Copyright 2022 {__author__}"
 
-__data_dir__: Final[Path] = Path(__file__).parent.resolve()
+__data_dir__: Final[Path] = (Path(__file__).parent / "data").resolve()
