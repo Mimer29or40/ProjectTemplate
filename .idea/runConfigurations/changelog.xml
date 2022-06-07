@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="changelog" type="PythonConfigurationType" factoryName="Python" folderName="tox">
+  <configuration default="false" name="changelog" type="Tox" factoryName="Tox" folderName="tox">
     <module name="ProjectTemplate" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -11,14 +11,16 @@
     <option name="IS_MODULE_SDK" value="true" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
-    <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-    <option name="SCRIPT_NAME" value="tox" />
-    <option name="PARAMETERS" value="-e changelog" />
-    <option name="SHOW_COMMAND_LINE" value="false" />
-    <option name="EMULATE_TERMINAL" value="false" />
-    <option name="MODULE_MODE" value="true" />
-    <option name="REDIRECT_INPUT" value="false" />
-    <option name="INPUT_FILE" value="" />
-    <method v="2" />
+    <arguments>
+      <array />
+    </arguments>
+    <runOnlyEnvs>
+      <array>
+        <option value="changelog" />
+      </array>
+    </runOnlyEnvs>
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="egg_info" run_configuration_type="PythonConfigurationType" />
+    </method>
   </configuration>
 </component>
