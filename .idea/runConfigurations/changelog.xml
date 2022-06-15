@@ -11,16 +11,15 @@
     <option name="IS_MODULE_SDK" value="true" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
+    <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     <arguments>
       <array />
     </arguments>
     <runOnlyEnvs>
       <array>
-        <option value="changelog" />
+        <option value="egg_info,changelog" />
       </array>
     </runOnlyEnvs>
-    <method v="2">
-      <option name="RunConfigurationTask" enabled="true" run_configuration_name="egg_info" run_configuration_type="PythonConfigurationType" />
-    </method>
+    <method v="2" />
   </configuration>
 </component>
