@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="build_exe" type="Tox" factoryName="Tox" folderName="tox">
+  <configuration default="false" name="build_exe" type="Tox" factoryName="Tox">
     <module name="ProjectTemplate" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
