@@ -17,7 +17,7 @@
     </arguments>
     <runOnlyEnvs>
       <array>
-        <option value="egg_info,build_exe" />
+        <option value="build_exe" />
       </array>
     </runOnlyEnvs>
     <method v="2" />

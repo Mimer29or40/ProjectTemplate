@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="egg_info" type="Tox" factoryName="Tox">
+  <configuration default="false" name="check_coverage" type="Tox" factoryName="Tox">
     <module name="ProjectTemplate" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -17,7 +17,7 @@
     </arguments>
     <runOnlyEnvs>
       <array>
-        <option value="egg_info" />
+        <option value="check_coverage" />
       </array>
     </runOnlyEnvs>
     <method v="2" />

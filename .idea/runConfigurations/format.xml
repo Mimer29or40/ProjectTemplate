@@ -17,7 +17,7 @@
     </arguments>
     <runOnlyEnvs>
       <array>
-        <option value="egg_info,format" />
+        <option value="format" />
       </array>
     </runOnlyEnvs>
     <method v="2" />

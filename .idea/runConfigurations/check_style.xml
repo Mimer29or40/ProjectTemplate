@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="lint" type="Tox" factoryName="Tox">
+  <configuration default="false" name="check_style" type="Tox" factoryName="Tox">
     <module name="ProjectTemplate" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -17,7 +17,7 @@
     </arguments>
     <runOnlyEnvs>
       <array>
-        <option value="egg_info,lint" />
+        <option value="check_style" />
       </array>
     </runOnlyEnvs>
     <method v="2" />
