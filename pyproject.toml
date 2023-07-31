@@ -119,7 +119,7 @@ requires-python = ">=3.8"
 # For dependencies, it is a key whose value is an array of strings. Each string
 #   represents a dependency of the project and MUST be formatted as a valid PEP 508
 #   string. Each string maps directly to a Requires-Dist entry.
-#dependencies = []  # Defined in setup.py until PyCharm can detect requirements here
+dependencies = []
 
 # dynamic
 # TOML type: array of string
@@ -186,7 +186,7 @@ Documentation = "http://DOCUMENTATION_URL"
 #   thus becomes a corresponding Requires-Dist entry for the matching Provides-Extra
 #   metadata.
 [project.optional-dependencies]
-#tests = ["tox"]  # Defined in setup.py until PyCharm can detect requirements here
+tests = ["tox"]
 
 [tool.setuptools]
 # platforms
