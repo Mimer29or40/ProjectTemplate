@@ -1,25 +1,18 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="format" type="Tox" factoryName="Tox">
+  <configuration default="false" name="test_metadata.py" type="tests" factoryName="Autodetect">
     <module name="ProjectTemplate" />
+    <option name="ENV_FILES" value="" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
-    <envs>
-      <env name="PYTHONUNBUFFERED" value="1" />
-    </envs>
     <option name="SDK_HOME" value="" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
     <option name="IS_MODULE_SDK" value="true" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-    <arguments>
-      <array />
-    </arguments>
-    <runOnlyEnvs>
-      <array>
-        <option value="format" />
-      </array>
-    </runOnlyEnvs>
+    <option name="_new_additionalArguments" value="&quot;&quot;" />
+    <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_metadata.py&quot;" />
+    <option name="_new_targetType" value="&quot;PATH&quot;" />
     <method v="2" />
   </configuration>
 </component>

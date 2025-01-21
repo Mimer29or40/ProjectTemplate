@@ -1,6 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="build" type="Tox" factoryName="Tox">
     <module name="ProjectTemplate" />
+    <option name="ENV_FILES" value="" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
@@ -17,7 +18,8 @@
     </arguments>
     <runOnlyEnvs>
       <array>
-        <option value="build" />
+        <option value="build_pkg" />
+        <option value="build_exe" />
       </array>
     </runOnlyEnvs>
     <method v="2" />

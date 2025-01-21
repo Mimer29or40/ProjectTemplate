@@ -10,6 +10,10 @@
       <excludeFolder url="file://$MODULE_DIR$/mypy" />
       <excludeFolder url="file://$MODULE_DIR$/.mypy_cache" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/src/YOUR_PACKAGE.egg-info" />
+      <excludeFolder url="file://$MODULE_DIR$/spec" />
+      <excludeFolder url="file://$MODULE_DIR$/src/YOUR_PACKAGE.egg-info.bak" />
+      <excludeFolder url="file://$MODULE_DIR$/src/your_module.egg-info" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
