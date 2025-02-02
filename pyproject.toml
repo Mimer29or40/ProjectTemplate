@@ -48,10 +48,14 @@ Documentation = "http://DOCUMENTATION_URL"
 
 [project.optional-dependencies]
 dev = [
-    "ruff",
-    "tox",
-    "pytest",
+    "tox>=4.24.1",
+    "pytest>=8.3.4",
+    "pyinstaller>=6.11.1",
 ]
+
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 [tool.setuptools.packages.find]
@@ -124,6 +128,11 @@ select = [
     "FURB", # refurb
     "RUF", # Ruff-specific rules
 ]
+ignore = [
+    "D203", # pydocstyle: 1 blank line required before class docstring
+    "D213", # pydocstyle: Multi-line docstring summary should start at the second line
+    "COM812", # flake8-commas: missing trailing comma
+]
 
 [tool.ruff.lint.per-file-ignores]
 "test/*" = [
@@ -136,7 +145,3 @@ force-single-line = true
 required-imports = ["from __future__ import annotations"]
 
 [tool.ruff.lint.isort.sections]
-
-[build-system]
-requires = ["setuptools", "setuptools_scm"]
-build-backend = "setuptools.build_meta"

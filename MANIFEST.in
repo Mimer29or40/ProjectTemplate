@@ -1,6 +1,0 @@
-recursive-include src/your_module/data *
-recursive-exclude .idea *
-recursive-exclude .tox *
-recursive-exclude dist *
-recursive-exclude test *
-exclude tox.ini

@@ -214,4 +214,3 @@ mypy/
 cython_debug/
 
 /__version__.py
-/spec/

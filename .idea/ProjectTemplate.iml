@@ -14,8 +14,9 @@
       <excludeFolder url="file://$MODULE_DIR$/spec" />
       <excludeFolder url="file://$MODULE_DIR$/src/YOUR_PACKAGE.egg-info.bak" />
       <excludeFolder url="file://$MODULE_DIR$/src/your_module.egg-info" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="uv (ProjectTemplate)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
