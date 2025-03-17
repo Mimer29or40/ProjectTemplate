@@ -129,13 +129,21 @@ select = [
     "RUF", # Ruff-specific rules
 ]
 ignore = [
+    "N999", # pep8-naming: Invalid module name
     "D203", # pydocstyle: 1 blank line required before class docstring
     "D213", # pydocstyle: Multi-line docstring summary should start at the second line
     "COM812", # flake8-commas: missing trailing comma
+    "DTZ001", # flake8-datetimez: `datetime.datetime()` called without a `tzinfo` argument
+    "DTZ005", # flake8-datetimez: `datetime.datetime.now()` called without a `tz` argument
+    "TD003", # flake8-fixmes: Missing issue link for this _TODO
+    "FIX002", # flake8-todos: Line contains _TODO, consider resolving the issue
+    "TRY003", # tryceratops: Avoid specifying long messages outside the exception class
 ]
 
 [tool.ruff.lint.per-file-ignores]
 "test/*" = [
+    "T201", # print found
+    "T203", # pprint found
     "INP001", # flake8-no-pep420 - File is part of an implicit namespace package.
 ]
 
@@ -143,5 +151,3 @@ ignore = [
 # https://docs.astral.sh/ruff/settings/#lintisort
 force-single-line = true
 required-imports = ["from __future__ import annotations"]
-
-[tool.ruff.lint.isort.sections]
